@@ -1,0 +1,2 @@
+Update directories in symbols to all use ${DANDB_DIR}/ instead of D:/
+Update directories in footprints to all use ${DANDB_DIR}/ instead of D:/

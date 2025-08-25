@@ -1,0 +1,8 @@
+This is a guide on how to link KiCad 9.0.x to the DB on Windows 11
+
+
+Downloaded and installed sqliteodbc_w64.exe from http://www.ch-werner.de/sqliteodbc/
+ * Note: Version installed is present in SETUP.zip
+
+In KiCad, added environment variable "DANDB_DIR" with value "E:/" in the Preferences/Configure Paths GUI
+
