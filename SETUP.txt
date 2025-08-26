@@ -1,8 +1,40 @@
-This is a guide on how to link KiCad 9.0.x to the DB on Windows 11
+This is a log of things I did to link KiCad 9.0.x to the component database DB on Windows 11
 
 
 Downloaded and installed sqliteodbc_w64.exe from http://www.ch-werner.de/sqliteodbc/
  * Note: Version installed is present in SETUP.zip
 
-In KiCad, added environment variable "DANDB_DIR" with value "E:/" in the Preferences/Configure Paths GUI
+In KiCad, added environment variable "DANDB_DIR" with value "D:\Github\Danakil_KiCad_DB" using the Configure Paths GUI under Preferences.
+ * Note: This is where the component database is located on my computer. You will likely need to use a different directory.
 
+In KiCad, added all libraries in D:\Github\Danakil_KiCad_DB\Symbols to the KiCad installation as existing libraries using the Symbol Libraries GUI under Preferences 
+ * Note: This is where the symbol libraries are located on my computer. This could also have been written as ${DANDB_DIR}\Symbols
+
+In KiCad, added all libraries in D:\Github\Danakil_KiCad_DB\Footprints to the KiCad installation as existing libraries using the Footprint Libraries GUI under Preferences 
+ * Note: This is where the footprint libraries are located on my computer. This could also have been written as ${DANDB_DIR}\Footprints
+
+In KiCad's Footprint editor:
+ * Pinned all the libraries in ${DANDB_DIR}\Footprints that we just added
+
+In KiCad, added Danakil_KiCad_Database.kicad_dbl to the KiCad installation as an existing library using the Symbol Libraries GUI under Preferences 
+ * Yielded an error
+
+Opened ODBC Data Sources (64-bit)
+ * Added SQLite3 OBDC Driver
+ |  * Set Data Source Name to Danakil Database
+ |  * Set Database Name to D:\Github\Danakil_KiCad_DB\Danakil_KiCad_database.sqlite
+ |  |  * This is where the database is on my computer. Your location will likely be different.
+ |  * All other parameters left at default values
+
+In KiCad, removed and added back Danakil_KiCad_Database.kicad_dbl to the KiCad installation as an existing library using the Symbol Libraries GUI under Preferences 
+ * Yielded the same error
+
+Changed the connection string in Danakil_KiCad_Database.kicad_dbl to "DSN=Danakil Database"
+In KiCad, removed and added back Danakil_KiCad_Database.kicad_dbl to the KiCad installation as an existing library using the Symbol Libraries GUI under Preferences 
+ * Yielded no error???
+
+Renamed the symbol libraries Passives.kicad_sym and Test Points.kicad_sym to 0Dan_Passives.kicad_sym and 0Dan_Test Points.kicad_sym respectively
+
+Deleted symbol libraries named Passives and Test Points in KiCad using the Symbol Libraries GUI
+
+Added 0Dan_Passives.kicad_sym and 0Dan_Test Points.kicad_sym to KiCad using the Symbol Libraries GUI

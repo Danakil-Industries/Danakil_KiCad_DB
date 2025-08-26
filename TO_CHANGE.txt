@@ -1,2 +1,58 @@
-Update directories in symbols to all use ${DANDB_DIR}/ instead of D:/
-Update directories in footprints to all use ${DANDB_DIR}/ instead of D:/
+Update directories in symbols to all use ${DANDB_DIR} instead of D:
+ * No directories that include D:, so we're good here
+
+Update directories in footprints to all use ${DANDB_DIR} instead of D:
+ * NOTE: Used a python script to check all files in ${DANDB_DIR}\Footprints for the presence of D:
+ * Batteries library checked: Updated all footprints
+ * Capacitors_SMD library checked: Updated some footprints
+ * Capacitors_TH library checked: Updated all footprints
+ |  * Moved PHHMLPME4.step to Capacitor_THT.3dshapes
+ * Connectors library checked
+ |  * Gave footprint CUI_UJ20-C-H-C-4-SMT-TR a 3d model
+ |  |  * Added Same_Sky_UJ20-C-H-C-4-SMT-TR.step to Connector.3dshapes
+ |  * Noticed that footprint MTJ-661X1 doesn't have a 3d model. Couldn't find one so I didn't add one.
+ |  * Gave footprint UJ2-BH-W1-TH a 3d model
+ |  |  * Added Same_Sky_UJ2-BH-W1-TH.step to Connector.3dshapes
+ |  * Gave footprint UJ2-MIBH-G-SMT-TR a 3d model
+ |  |  * Added Same_Sky_UJ2-MIBH-G-SMT-TR.step to Connector.3dshapes
+ |  * Updated many footprints
+ * Connectors_ICskt library checked: Updated all footprints
+ * Connectors_Prog library checked
+ |  * Found that footprint Prog_ICSP_er_0.1M has no 3d model. Was too lazy to find one. 
+ |  * Noticed that footprint Prog_SNAP_MTJ-661X1 doesn't have a 3d model. Couldn't find one earlier so I didn't bother trying again.
+ * DCDC_NonIso library checked: Updated all footprints
+ * Discreet_SMD library checked: Updated all footprints
+ |  * Noticed that footprint QBLP595-IG had an incorrect 3d model
+ |  |  * Added QBLP595.step to LED_SMD.3dshapes
+ * Discreet_TH: Updated all footprints
+ * Feet library checked: Updated all footprints
+ * ICs library checked: Updated many footprints
+ * Inductors_SMD library checked: Updated 1 footprint
+ * MCU_Boards library checked: Updated all footprints
+ |  * Created Daughter_Boards.3dshapes library
+ |  |  * Moved Ard_Nano.step to Daughter_Boards.3dshapes 
+ |  |  * Moved Ard_Nano_Every.step to Daughter_Boards.3dshapes 
+ |  |  * Moved pi pico 2 3d model to Daughter_Boards.3dshapes and renamed to Pi_Pico_2_R5_24_07_24.step
+ * Mechanical_Standoffs_SMD library checked: Updated all footprints
+ * Osc_Logic_Out library checked: Updated all footprints
+ * Protection_Fuses library checked: Updated all footprints
+ * Protection_MOV library checked: Updated 1 footprint
+ * Resistors_SMD library checked: Updated all footprints
+ * Resistors_SMD_Networks library checked: Updated some footprints
+ * Screws library checked: Updated all footprints
+ * Switches_Push library checked: Updated all footprints
+ |  * Renamed 3d model library Switch_Push to Switch_Push.3dshapes
+ * Switches_Slide library checked: Updated all footprints
+ * Switches_Tactile library checked: Updated many footprints
+ * TermBlocks library checked: Updated all footprints
+ * VRefs_BZener library checked: Updated all footprints
+ * XOs library checked: Updated many footprints
+
+
+
+
+
+
+
+
+
