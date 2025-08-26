@@ -1,27 +1,94 @@
-(footprint "MOV_0805" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -1.778 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0d9faf64-b9f7-4d7d-bade-3dcbadd47740)
-  )
-  (fp_text value "MOV_0805" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 20c147fd-aa95-4927-aba0-0c37f212f4f5)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2f78c417-608f-4997-b762-bc9435e04df6)
-  )
-  (fp_line (start -0.4 0) (end 0.4 0)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp dcd4dc52-09e6-40e8-a52a-c7384b7cca85))
-  (pad "1" smd roundrect (at -1.15 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (thermal_bridge_angle 45) (tstamp 3c0dbfbe-086f-4676-a69c-8be4522a135e))
-  (pad "2" smd roundrect (at 1.15 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (thermal_bridge_angle 45) (tstamp 13ed4d65-0ec0-498a-b2ab-c5a320b7539f))
-  (model "D:/3D Models/Varistor.3dshapes/RV_0805_2012Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "MOV_0805"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0d9faf64-b9f7-4d7d-bade-3dcbadd47740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOV_0805"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20c147fd-aa95-4927-aba0-0c37f212f4f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab684f16-2764-4b1a-ae46-ed13cc07fc36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9633dc8-9967-46c5-b3de-af0ea6a2a556")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dcd4dc52-09e6-40e8-a52a-c7384b7cca85")
+	)
+	(pad "1" smd roundrect
+		(at -1.15 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "3c0dbfbe-086f-4676-a69c-8be4522a135e")
+	)
+	(pad "2" smd roundrect
+		(at 1.15 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "13ed4d65-0ec0-498a-b2ab-c5a320b7539f")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Varistor.3dshapes/RV_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

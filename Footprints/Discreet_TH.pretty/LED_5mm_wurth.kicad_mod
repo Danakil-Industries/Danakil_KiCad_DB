@@ -1,27 +1,105 @@
-(footprint "LED_5mm_wurth" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -3.81 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp a7b9356b-20ef-46e1-bdc6-79f2f8d8f39b)
-  )
-  (fp_text value "LED_5mm_wurth" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7f8b1d8d-f715-4d65-8f7b-765b8d67035f)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c6f62d7f-c0a4-416e-8f08-b3b95d80908f)
-  )
-  (fp_line (start 2.45 -1.643) (end 2.45 1.643)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 8e447a6a-9eb0-408c-8398-d9b1de1ab2b5))
-  (fp_arc (start 2.45 1.643) (mid -2.949277 0) (end 2.45 -1.643)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f0f68da8-a66f-4a1b-86e8-df545859b8bf))
-  (pad "1" thru_hole rect (at 1.27 0) (size 1.75 1.75) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 82608a85-a82e-4b78-b5e3-4eba79d758ba))
-  (pad "2" thru_hole circle (at -1.27 0) (size 1.75 1.75) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1f3d6929-c026-47e2-82a0-ce256985b9d6))
-  (model "D:/3D Models/LED_THT.3dshapes/TMRC-5mm.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_5mm_wurth"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a7b9356b-20ef-46e1-bdc6-79f2f8d8f39b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_5mm_wurth"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f8b1d8d-f715-4d65-8f7b-765b8d67035f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fa8aa60-d0c6-4521-b48d-2f15b0019df2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7c999d9-f5b0-4e37-a8e3-1bc44aba500d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.45 -1.643)
+		(end 2.45 1.643)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e447a6a-9eb0-408c-8398-d9b1de1ab2b5")
+	)
+	(fp_arc
+		(start 2.45 1.643)
+		(mid -2.949277 0)
+		(end 2.45 -1.643)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0f68da8-a66f-4a1b-86e8-df545859b8bf")
+	)
+	(pad "1" thru_hole rect
+		(at 1.27 0)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82608a85-a82e-4b78-b5e3-4eba79d758ba")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f3d6929-c026-47e2-82a0-ce256985b9d6")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/LED_THT.3dshapes/TMRC-5mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

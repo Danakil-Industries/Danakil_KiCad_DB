@@ -1,22 +1,79 @@
-(footprint "BS22BL05X06RP" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer "B.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    (tstamp 8cc4beda-1fff-4ddf-ae21-51c0fa581a27)
-  )
-  (fp_text value "BS22BL05X06RP" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f1969073-edac-414c-84b2-2161bae1adc3)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp dbf9e25b-91e1-4bc7-8a7c-5c4b761c8ce3)
-  )
-  (fp_circle (center 0 0) (end 4 0)
-    (stroke (width 0.1) (type dot)) (fill none) (layer "B.SilkS") (tstamp d2111813-06b0-418f-8cbb-4883c8f72512))
-  (model "D:/3D Models/Feet.3dshapes/BS22.step"
-    (offset (xyz 0 0 -1.6))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
-  )
+(footprint "BS22BL05X06RP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "8cc4beda-1fff-4ddf-ae21-51c0fa581a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "BS22BL05X06RP"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1969073-edac-414c-84b2-2161bae1adc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "580fab06-b2aa-4181-87ea-637012682730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74e837d6-0e2d-4029-9636-0a332b4a5e55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "d2111813-06b0-418f-8cbb-4883c8f72512")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Feet.3dshapes/BS22.step"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )

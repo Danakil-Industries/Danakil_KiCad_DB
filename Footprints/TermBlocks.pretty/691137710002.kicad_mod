@@ -1,25 +1,106 @@
-(footprint "691137710002" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cfeb549d-30df-48f1-befe-b92882acd04a)
-  )
-  (fp_text value "691137710002" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp be241b61-1c06-4218-aea0-56ccd0295f22)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b4f52dda-0fc7-413a-bbfc-65c89f78172c)
-  )
-  (fp_rect (start -2.5 -3.5) (end 7.5 4)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 6daf5c6e-efd9-4734-bb6b-befab015bf15))
-  (pad "1" thru_hole rect (at 0 0) (size 2.5 2.5) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp afacef8c-5053-4a2e-8f1f-9132d43080a6))
-  (pad "2" thru_hole circle (at 5 0) (size 2.5 2.5) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 05d9a934-7849-42f7-ad5b-d0ee911a7ced))
-  (model "D:/3D Models/Connector_TermBlocks.3dshapes/691137710002.stp"
-    (offset (xyz -2.5 -4 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
+(footprint "691137710002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cfeb549d-30df-48f1-befe-b92882acd04a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691137710002"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be241b61-1c06-4218-aea0-56ccd0295f22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef723fe6-16ec-4980-9d19-1d3bc7a55579")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29365089-4c19-431b-bf90-82d5f3715279")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.5 -3.5)
+		(end 7.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6daf5c6e-efd9-4734-bb6b-befab015bf15")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4f52dda-0fc7-413a-bbfc-65c89f78172c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afacef8c-5053-4a2e-8f1f-9132d43080a6")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05d9a934-7849-42f7-ad5b-d0ee911a7ced")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Connector_TermBlocks.3dshapes/691137710002.stp"
+		(offset
+			(xyz -2.5 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

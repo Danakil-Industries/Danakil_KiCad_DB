@@ -1,22 +1,76 @@
-(footprint "24939_ElecConn" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 4322996a-502f-4978-9cc8-a49ec8881e59)
-  )
-  (fp_text value "24939_ElecConn" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d55eb208-d17e-4576-aa10-1888e9706048)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e6df0d70-9838-484a-9b52-6acc16eade93)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.2) (layers "*.Cu" "*.Mask" "F.Paste") (tstamp 94f9383e-c644-4801-9b45-38182539f744))
-  (model "D:/3D Models/Mechanical_Standoffs/24939.STEP"
-    (offset (xyz 0 0 -1.52))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "24939_ElecConn"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4322996a-502f-4978-9cc8-a49ec8881e59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "24939_ElecConn"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d55eb208-d17e-4576-aa10-1888e9706048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5772850-e361-41cd-8b93-7a9d9750e592")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "014417e6-92cb-497f-a74e-ff5926d4f4b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "94f9383e-c644-4801-9b45-38182539f744")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Mechanical_Standoffs/24939.STEP"
+		(offset
+			(xyz 0 0 -1.52)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

@@ -1,27 +1,95 @@
-(footprint "Fuse_1206" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -1.778 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 839c49a2-9823-4bf4-b58d-349fd45881ab)
-  )
-  (fp_text value "Fuse_1206" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 10e8620b-1e7f-4fa0-8fa8-96ecb6678d5b)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 735da683-bb75-4291-8050-ea8908be4c2d)
-  )
-  (fp_rect (start -0.5 -0.4) (end 0.5 0.4)
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 7a3f74fe-1fff-41fa-9ccb-a880459bd3d6))
-  (pad "1" smd roundrect (at -1.317 0) (size 1.14 1.78) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (thermal_bridge_angle 45) (tstamp 69bfcbf3-2b10-4609-887f-3a26b4899027))
-  (pad "2" smd roundrect (at 1.317 0) (size 1.14 1.78) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (thermal_bridge_angle 45) (tstamp 1394ff82-deee-48b7-a8e8-0c3e988715fa))
-  (model "D:/3D Models/Fuse.3dshapes/Fuse_1206_3216Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Fuse_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "839c49a2-9823-4bf4-b58d-349fd45881ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_1206"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e8620b-1e7f-4fa0-8fa8-96ecb6678d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97a4c4e1-3cd4-40c2-82ac-66c439827fcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1dc6c38-b189-46b5-af0a-cdb41b7117a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.5 -0.4)
+		(end 0.5 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7a3f74fe-1fff-41fa-9ccb-a880459bd3d6")
+	)
+	(pad "1" smd roundrect
+		(at -1.317 0)
+		(size 1.14 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "69bfcbf3-2b10-4609-887f-3a26b4899027")
+	)
+	(pad "2" smd roundrect
+		(at 1.317 0)
+		(size 1.14 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1394ff82-deee-48b7-a8e8-0c3e988715fa")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Fuse.3dshapes/Fuse_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

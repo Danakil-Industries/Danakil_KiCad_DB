@@ -10,7 +10,7 @@
         "username": "",
         "password": "",
         "timeout_seconds": 2,
-        "connection_string": "Driver={SQLite3 ODBC Driver};Database=D:\\Danakil_KiCad_database.sqlite"
+        "connection_string": "DSN=Danakil Database"
     },
     "libraries": [
         {

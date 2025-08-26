@@ -1,26 +1,123 @@
-(footprint "QBLP595-IG" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 2.5 0 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp f0028632-bcf8-4b15-a793-9dc893b1cb5b)
-  )
-  (fp_text value "QBLP595-IG" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cadff789-1b5e-4e72-a774-42212bf7d42e)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a0257a36-5d7d-47bf-92a8-8a891757d42c)
-  )
-  (fp_line (start -0.3 0) (end -0.3 0.8)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 08139650-25b4-429f-a3d0-3764b003465c))
-  (fp_line (start -0.3 0.8) (end 0.3 0.8)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f96c8eb2-c3c0-4c0d-b115-3e3b96b1310a))
-  (fp_line (start 0.3 0.8) (end 0.3 0)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp a8545575-8618-41a7-8993-28a7bf1d643b))
-  (pad "1" smd rect (at 0 -0.5) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp ac8e731e-0190-4953-8eb5-5c9216caea08))
-  (pad "2" smd rect (at 0 0.5) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 20175c11-05de-49a6-8321-013461158aab))
+(footprint "QBLP595-IG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0028632-bcf8-4b15-a793-9dc893b1cb5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "QBLP595-IG"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cadff789-1b5e-4e72-a774-42212bf7d42e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1224e1e0-ac8a-4eb8-8098-316d2e7ba155")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25a470cd-4d80-46c3-80f5-0d86bb7cc8ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 0)
+		(end -0.3 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08139650-25b4-429f-a3d0-3764b003465c")
+	)
+	(fp_line
+		(start -0.3 0.8)
+		(end 0.3 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f96c8eb2-c3c0-4c0d-b115-3e3b96b1310a")
+	)
+	(fp_line
+		(start 0.3 0.8)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8545575-8618-41a7-8993-28a7bf1d643b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a0257a36-5d7d-47bf-92a8-8a891757d42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -0.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ac8e731e-0190-4953-8eb5-5c9216caea08")
+	)
+	(pad "2" smd rect
+		(at 0 0.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "20175c11-05de-49a6-8321-013461158aab")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/LED_SMD.3dshapes/QBLP595.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

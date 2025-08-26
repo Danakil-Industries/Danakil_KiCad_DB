@@ -1,21 +1,85 @@
-(footprint "9191_Hole" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 534c0f4f-26e2-4d68-8de6-5875c6a5f51b)
-  )
-  (fp_text value "9191_Hole" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 55868d65-df39-48a2-bd00-348f2bad3d68)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 75c963f8-5154-4b95-897b-cfbb60560f6e)
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.4) (layers "F&B.Cu" "*.Mask") (tstamp 27979435-8d2a-4552-a307-cc6d6cbdceb0))
-  (model "D:/3D Models/Mechanical_Screws.3dshapes/90604A722_Pan Head Combination Phillips Slotted Screws.STEP"
-    (offset (xyz 0 0 -6))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "9191_Hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "534c0f4f-26e2-4d68-8de6-5875c6a5f51b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "9191_Hole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "55868d65-df39-48a2-bd00-348f2bad3d68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d204b2a-e287-4606-8a97-3170469c6542")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c26df5cc-568c-40e5-a1c4-2f5c424ab242")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75c963f8-5154-4b95-897b-cfbb60560f6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "27979435-8d2a-4552-a307-cc6d6cbdceb0")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Mechanical_Screws.3dshapes/90604A722_Pan Head Combination Phillips Slotted Screws.STEP"
+		(offset
+			(xyz 0 0 -6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
