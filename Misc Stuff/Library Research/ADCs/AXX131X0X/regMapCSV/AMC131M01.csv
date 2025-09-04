@@ -1,0 +1,4 @@
+Address,Register,Cont_Name,Reset_Value,Start_Bit,Length
+0x00,ID,RESERVED,0x2,0,4
+0x00,ID,CHANCNT,0x1,4,4
+0x00,ID,RESERVED,0xXX,8,8
