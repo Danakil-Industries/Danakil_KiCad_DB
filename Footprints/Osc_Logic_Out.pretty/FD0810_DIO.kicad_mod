@@ -1,0 +1,140 @@
+(footprint "FD0810_DIO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8bb17c28-b1a9-43fb-aa9e-6cee2328a88b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FD0810_DIO"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f07e5ef2-65af-43b0-8acf-e41929374669")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ceae9fc-e53d-404d-b88f-ce27a5bd85d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f2aaac6-26e2-478e-bed7-b70909ca7fa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c3fc5d2-38bf-4b40-a6e1-dbf95e741baa")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end -2.2 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ceda5a93-c2c6-4648-b29a-7b4442e4e811")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c149a10-0df0-46da-ad3c-010820a9d891")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5b9b941-0385-4536-8d20-5be017bb5fe6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 1.27)
+		(size 1.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3586c4fc-a489-40ad-8da3-9b3ec5c10b23")
+	)
+	(pad "2" smd rect
+		(at 1.27 1.27)
+		(size 1.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6adad2ce-e749-4d39-8b1d-fc7c8e6b677a")
+	)
+	(pad "3" smd rect
+		(at 1.27 -1.27)
+		(size 1.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "eadedbf7-d41e-47fa-b277-c67e49656d27")
+	)
+	(pad "4" smd rect
+		(at -1.27 -1.27)
+		(size 1.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2cf13785-8bb5-4d74-a4ce-25647111b5d8")
+	)
+	(embedded_fonts no)
+	(model "${DANDB_DIR}/3D Models/Oscillator.3dshapes/FD081_DIO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
