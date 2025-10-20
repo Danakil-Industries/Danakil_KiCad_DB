@@ -6594,6 +6594,149 @@
                 "exclude_from_bom": "No BOM",
                 "exclude_from_board": "Schematic Only"
             }
+        },{
+            "name": "PSUs - PCB Mount - DC-DC - Isolated",
+            "table": "PSUs - PCB Mount - DC-DC - Isolated",
+            "key": "Name",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+				{
+                    "column": "Name",
+                    "name": "Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+				{
+                    "column": "Vout",
+                    "name": "Vout",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Vin",
+                    "name": "Vin",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Iout",
+                    "name": "Iout",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Isolation Working Voltage",
+                    "name": "Isolation Working Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Efficiency",
+                    "name": "Efficiency",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Isolation Capacitance",
+                    "name": "Isolation Capacitance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Fsw",
+                    "name": "Fsw",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG",
+                    "name": "MFG",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG PN",
+                    "name": "MFG PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor",
+                    "name": "Distributor",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor PN",
+                    "name": "Distributor PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Symbol",
+                    "name": "Symbol",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Footprint",
+                    "name": "Footprint",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Comment",
+                    "name": "Comment",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+                
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
         }
     ]
 }
