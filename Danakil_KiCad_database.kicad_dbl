@@ -6444,6 +6444,156 @@
                 "exclude_from_bom": "No BOM",
                 "exclude_from_board": "Schematic Only"
             }
+        },{
+            "name": "Isolators - Digital",
+            "table": "Isolators - Digital",
+            "key": "Name",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+				{
+                    "column": "Name",
+                    "name": "Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+				{
+                    "column": "Channels",
+                    "name": "Channels",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Inputs - Side 1/Side2",
+                    "name": "Inputs - Side 1/Side2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Channel Type",
+                    "name": "Channel Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Data Rate",
+                    "name": "Data Rate",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Max Working Voltage",
+                    "name": "Max Working Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Isolation Type",
+                    "name": "Isolation Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Min CTMI",
+                    "name": "Min CTMI",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG",
+                    "name": "MFG",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG PN",
+                    "name": "MFG PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor",
+                    "name": "Distributor",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor PN",
+                    "name": "Distributor PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Symbol",
+                    "name": "Symbol",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Footprint",
+                    "name": "Footprint",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Comment",
+                    "name": "Comment",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+                
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
         }
     ]
 }
