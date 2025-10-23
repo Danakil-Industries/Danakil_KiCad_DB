@@ -6737,6 +6737,149 @@
                 "exclude_from_bom": "No BOM",
                 "exclude_from_board": "Schematic Only"
             }
+        },{
+            "name": "Inductors - Common Mode Choke",
+            "table": "Inductors - Common Mode Choke",
+            "key": "Name",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+				{
+                    "column": "Name",
+                    "name": "Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+				{
+                    "column": "Lines",
+                    "name": "Lines",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Self Resonant Freq",
+                    "name": "Self Resonant Freq",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Z@Freq",
+                    "name": "Z@Freq",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Imax",
+                    "name": "Imax",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "DCRmax",
+                    "name": "DCRmax",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Vmax",
+                    "name": "Vmax",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Size",
+                    "name": "Size",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG",
+                    "name": "MFG",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG PN",
+                    "name": "MFG PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor",
+                    "name": "Distributor",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor PN",
+                    "name": "Distributor PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Symbol",
+                    "name": "Symbol",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Footprint",
+                    "name": "Footprint",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Comment",
+                    "name": "Comment",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+                
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
         }
     ]
 }
