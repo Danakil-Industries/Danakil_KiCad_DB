@@ -92,14 +92,14 @@ for sheet in xlsxSheets:
                 raise improperNumbOfBits("Found that the number of bits in the current field did NOT match the specified field length!!!")
         
         #Next, check to make sure that the start index of each entry is correct
-        runningSum = 0
+        runningSum = 15
         for i in range(len(register.entry)):
             if(register.entry[i].start_bit != runningSum):
                 class improperStartIndex(Exception):
                     pass
                 raise improperStartIndex("Found that the start index was incorrect!!!")
             else:
-                runningSum = runningSum + register.entry[i].length
+                runningSum = runningSum - register.entry[i].length
 
 
         
