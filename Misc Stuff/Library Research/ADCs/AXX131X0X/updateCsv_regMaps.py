@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+#This file takes the register maps defined in Register Maps.xlsx, verifies the contents, and then transcribes the contents to .csv files.
+
 import os
 import pandas as pd
 from typing import Union
@@ -8,7 +11,7 @@ import csv
 import shutil
 from lib_getExcelSheets import xlsxReader
 
-#Define the file path for the input (.xlsx) file and the output (.sqlite) file
+#Define the file path for the input (.xlsx) file and the output (.csv) file
 spreadsheetPath = 'Register Maps.xlsx'
 outputPath = './regMapCSV/'
 
