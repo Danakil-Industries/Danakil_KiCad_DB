@@ -623,20 +623,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "RxxC1TFxxS_0_1"
+		(symbol "RxxC1TFxxS_1_1"
 			(rectangle
 				(start -7.62 15.24)
 				(end 7.62 -2.54)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "RxxC1TFxxS_1_1"
 			(text "Isolated\nDC-DC"
 				(at 0 12.954 0)
 				(effects
