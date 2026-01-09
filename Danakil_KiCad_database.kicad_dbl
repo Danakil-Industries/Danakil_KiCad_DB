@@ -6880,6 +6880,142 @@
                 "exclude_from_bom": "No BOM",
                 "exclude_from_board": "Schematic Only"
             }
+        },{
+            "name": "Discreet - Diodes - Zener",
+            "table": "Discreet - Diodes - Zener",
+            "key": "Name",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+				{
+                    "column": "Name",
+                    "name": "Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+				{
+                    "column": "Vz",
+                    "name": "Vz",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Iz",
+                    "name": "Iz",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Dynamic Impedance (Ω)",
+                    "name": "Dynamic Impedance (Ω)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Max Power",
+                    "name": "Max Power",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Size",
+                    "name": "Size",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG",
+                    "name": "MFG",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "MFG PN",
+                    "name": "MFG PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor",
+                    "name": "Distributor",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Distributor PN",
+                    "name": "Distributor PN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Symbol",
+                    "name": "Symbol",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Footprint",
+                    "name": "Footprint",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+				{
+                    "column": "Comment",
+                    "name": "Comment",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+                
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
         }
     ]
 }
